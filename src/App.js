@@ -8,6 +8,7 @@ import Profile from "./pages/Profile";
 import SignIn from "./pages/SignIn";
 import DetailUser from "./pages/DetailUser";
 // import component here
+import PrivateRoute from './components/PrivateRoute'
 
 function App() {
   return (
