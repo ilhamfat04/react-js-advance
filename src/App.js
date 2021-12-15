@@ -32,6 +32,9 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/signin" component={SignIn} />
         {/* change route for page about, profile, and user:id to private route */}
+        <PrivateRoute exact path="/about" component={About} />
+        <PrivateRoute exact path="/profile" component={Profile} />
+        <PrivateRoute exact path="/user/:id" component={DetailUser} />
       </Switch>
     </Router>
   );
