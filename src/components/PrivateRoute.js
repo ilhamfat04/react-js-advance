@@ -2,7 +2,7 @@ import { Redirect, Route } from "react-router-dom";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   // assume that user is not login yet
-  const isSignin = false;
+  const isSignin = true;
 
   return (
     <>

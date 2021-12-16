@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 
 // import component
+import DetailAbout from "../components/DetailAbout";
 
 function About() {
   return (
@@ -17,6 +18,11 @@ function About() {
         tortor.
       </p>
       {/* code here */}
+      <DetailAbout
+        title="Dumbways"
+        summary="Fullstack B29"
+        total="15"
+      />
     </Container>
   );
 }
